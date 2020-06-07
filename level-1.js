@@ -87,11 +87,11 @@ twoArguments (15,10);
 
 // question 10
 
-var emptyArray = [];
+var fruits = [];
 
-function oneArgument (argument1) {
-	var sum = argument1 + emptyArray;
-	console.log(sum);
+function addFruit (fruit1) {
+	emptyArray = fruit1;
+	console.log(emptyArray);
 }
 
-oneArgument ("apples");
+addFruit ("apple");
