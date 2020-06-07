@@ -90,7 +90,7 @@ twoArguments (15,10);
 var emptyArray = [];
 
 function oneArgument (argument1) {
-	var sum = dislike + emptyArray;
+	var sum = argument1 + emptyArray;
 	console.log(sum);
 }
 
